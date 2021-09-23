@@ -96,7 +96,7 @@ class YourFavTunes extends Component {
   render() {
     const { newReleases, featuredPlaylist, genreList } = this.state;
     return (
-      <div>
+      <div className="fav-bg">
         <AppBar />
         <div className="your-fav-tunes-component">
           <div className="your-fav-tunes">

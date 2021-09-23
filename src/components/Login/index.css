@@ -1,12 +1,15 @@
 .bg {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  text-align: center;
 }
 
 .button {
-  color: black;
+  color: #ffffff;
+  background-color: black;
   border: 0;
   border-radius: 8px;
   padding: 10px;

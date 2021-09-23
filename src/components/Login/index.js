@@ -48,6 +48,7 @@ class Login extends Component {
 
     return (
       <div className="bg">
+        <h1>Login to your Spotify Account</h1>
         <a className="button" href={loginUrl}>
           Login
         </a>

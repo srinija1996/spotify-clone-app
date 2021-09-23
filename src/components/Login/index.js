@@ -23,8 +23,8 @@ class Login extends Component {
     // window.location.hash =
     //   "https://614c15506d590a00082f63a9--pedantic-cori-7c3e0d.netlify.app/";
     // spotify.setAccessToken(token);
-    window.location =
-      "https://614c16367a41a7000855fcfd--pedantic-cori-7c3e0d.netlify.app/";
+    // window.location =
+    //   "https://614c16367a41a7000855fcfd--pedantic-cori-7c3e0d.netlify.app/";
   };
 
   setAccessToken = () => {

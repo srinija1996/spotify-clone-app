@@ -1,39 +1,39 @@
 import { Component } from "react";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import { AiFillPlayCircle } from "react-icons/ai";
 
-import Tunes from "../Tunes";
+// import Tunes from "../Tunes";
 import "./index.css";
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "blue",
-      }}
-      onClick={onClick}
-    />
-  );
-}
+// function SampleNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{
+//         ...style,
+//         display: "block",
+//         background: "blue",
+//       }}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "blue",
-      }}
-      onClick={onClick}
-    />
-  );
-}
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{
+//         ...style,
+//         display: "block",
+//         background: "blue",
+//       }}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
 class PlaylistDetails extends Component {
   state = { albums: [], tracks: [] };
@@ -82,15 +82,15 @@ class PlaylistDetails extends Component {
     const { item } = this.props;
     const { albums, tracks } = this.state;
 
-    const settings = {
-      dots: false,
-      infinite: true,
-      speed: 100,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />,
-    };
+    // const settings = {
+    //   dots: false,
+    //   infinite: true,
+    //   speed: 100,
+    //   slidesToShow: 1,
+    //   slidesToScroll: 1,
+    //   nextArrow: <SampleNextArrow />,
+    //   prevArrow: <SamplePrevArrow />,
+    // };
     console.log("Stg", tracks);
     return (
       <div className="popup-card">

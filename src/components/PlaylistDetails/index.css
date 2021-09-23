@@ -26,7 +26,7 @@
   padding: 20px;
 }
 
-@media (width < 768px) {
+@media (max-width: 768px) {
   .popup-card-heading {
     font-size: 18px;
   }

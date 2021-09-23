@@ -5,14 +5,14 @@ import { BsSun, BsMoon } from "react-icons/bs";
 // import "slick-carousel/slick/slick-theme.css";
 
 import AppBar from "../AppBar";
-import {
-  Banner,
-  Heading,
-  YourFavTunesComponent,
-  MainComponent,
-  BottomSection,
-  SubTitleContainer,
-} from "./styledComponents";
+// import {
+//   Banner,
+//   Heading,
+//   YourFavTunesComponent,
+//   MainComponent,
+//   BottomSection,
+//   SubTitleContainer,
+// } from "./styledComponents";
 import Sidebar from "../Sidebar";
 import "./index.css";
 import Tunes from "../Tunes";

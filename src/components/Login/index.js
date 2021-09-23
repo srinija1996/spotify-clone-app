@@ -1,6 +1,6 @@
 import { Component } from "react";
-import spotifyWebApi from "spotify-web-api-js";
-import Cookie from "js-cookie";
+// import spotifyWebApi from "spotify-web-api-js";
+// import Cookie from "js-cookie";
 
 import { loginUrl, getTokenFromUrl } from "../../info";
 import YourFavTunes from "../yourFavTunesApp";
@@ -8,7 +8,7 @@ import ContextValues from "../../context";
 
 import "./index.css";
 
-const spotify = new spotifyWebApi();
+// const spotify = new spotifyWebApi();
 
 class Login extends Component {
   state = { token: "" };

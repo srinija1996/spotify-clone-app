@@ -78,7 +78,6 @@ const Tunes = (props) => {
     <ContextValues.Consumer>
       {(value) => {
         const { accessToken } = value;
-        console.log("new", newReleases);
         return (
           <Slider
             style={{ width: "75vw", position: "relative", top: "10px" }}
@@ -88,7 +87,7 @@ const Tunes = (props) => {
               <div className="item" key={tune.id}>
                 <Popup
                   trigger={
-                    <button className="button">
+                    <button className="button-item">
                       <img
                         className="image"
                         src={tune.images[0].url}

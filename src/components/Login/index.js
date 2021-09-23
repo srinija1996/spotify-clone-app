@@ -20,7 +20,7 @@ class Login extends Component {
   getToken = async () => {
     const token = await getTokenFromUrl();
     this.setState({ token: token.access_token });
-    // window.location.hash = "";
+    window.location.hash = "";
     // spotify.setAccessToken(token);
   };
 

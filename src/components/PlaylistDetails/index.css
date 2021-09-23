@@ -1,0 +1,45 @@
+.popup-card {
+  height: 10vh;
+}
+
+.side-heading {
+  color: blue;
+}
+
+.song {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.songs {
+  overflow-y: auto;
+  max-height: 200px;
+  width: 100%;
+}
+
+.song-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+}
+
+@media (width < 768px) {
+  .popup-card-heading {
+    font-size: 18px;
+  }
+
+  .side-heading {
+    font-size: 12px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+
+  .preview {
+    display: none;
+  }
+}

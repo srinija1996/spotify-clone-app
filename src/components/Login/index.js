@@ -20,7 +20,6 @@ class Login extends Component {
   getToken = async () => {
     const token = await getTokenFromUrl();
     this.setState({ token: token.access_token });
-    console.log(window.location);
     // window.location.hash =
     //   "https://614c15506d590a00082f63a9--pedantic-cori-7c3e0d.netlify.app/";
     // spotify.setAccessToken(token);
@@ -34,6 +33,7 @@ class Login extends Component {
 
   render() {
     const { token } = this.state;
+    console.log(token);
     if (token !== undefined) {
       if (token.length !== 0) {
         return (

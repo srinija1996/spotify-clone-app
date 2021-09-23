@@ -45,7 +45,7 @@ const Tunes = (props) => {
     if (width > 600 && width < 1024) {
       return 5;
     } else if (width > 1024) {
-      return 10;
+      return 8;
     } else {
       return 1;
     }
@@ -78,6 +78,7 @@ const Tunes = (props) => {
     <ContextValues.Consumer>
       {(value) => {
         const { accessToken } = value;
+        console.log("new", newReleases);
         return (
           <Slider
             style={{ width: "75vw", position: "relative", top: "10px" }}

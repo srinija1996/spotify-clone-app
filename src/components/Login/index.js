@@ -20,9 +20,11 @@ class Login extends Component {
   getToken = async () => {
     const token = await getTokenFromUrl();
     this.setState({ token: token.access_token });
-    window.location.hash =
-      "https://614c15506d590a00082f63a9--pedantic-cori-7c3e0d.netlify.app/";
+    // window.location.hash =
+    //   "https://614c15506d590a00082f63a9--pedantic-cori-7c3e0d.netlify.app/";
     // spotify.setAccessToken(token);
+    window.location =
+      "https://614c16367a41a7000855fcfd--pedantic-cori-7c3e0d.netlify.app/";
   };
 
   setAccessToken = () => {

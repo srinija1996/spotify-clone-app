@@ -80,11 +80,7 @@ class PlaylistDetails extends Component {
   render() {
     const { item } = this.props;
     const { albums, tracks } = this.state;
-    console.log(
-      albums.map((album) => {
-        console.log(album.track.preview_url);
-      })
-    );
+
     // const settings = {
     //   dots: false,
     //   infinite: true,
